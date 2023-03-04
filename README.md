@@ -14,7 +14,7 @@ To run: Python2 interpreter in PATH
   
 ## Build docker container:  
 
-### 1. For TOOL installation instructions:  
+### 1. For Subread installation instructions:  
 https://github.com/ShiLab-Bioinformatics/subread#readme  
 
 ### 2. Build the Docker Image
