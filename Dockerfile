@@ -47,6 +47,6 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-COPY --from=build /subread-2.0.4-source/bin/* /usr/bin
+COPY --from=build /subread-2.0.4-source/bin/* /usr/bin/
 
 
