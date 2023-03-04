@@ -26,7 +26,7 @@ docker build -t subread:2.0.4 . # tag should match software version
 ```
 * Can do this on [Google shell](https://shell.cloud.google.com)
 
-* Alternative build using Biocond/µmamba (Currently up to 2.0.3 available):
+* Alternative build using Bioconda/µmamba (Currently up to 2.0.3 available):
 ``` bash
 # Assumes current working directory is the top-level subread-docker-singularity directory
 docker build -t subread:2.0.3 -f Dockerfile_micromamba . # tag should match software version
